@@ -55,8 +55,7 @@ if (!ctype_alnum($username) OR !ctype_alnum($pass)){
 	  $_SESSION['uNama'] = $unama;
 	  $_SESSION['uLevel'] = $ulevel;
 	  $_SESSION['uFoto'] = $ufoto;
-	  getPAktif();
-	
+	 
 	  timer();
 	  header('location:index.php?rl=1');
 	}else{

@@ -19,7 +19,7 @@ if($_GET[act]=="tambah"){
 			<label class="control-label" for="foto">Foto</label>
 			<div class="controls">
 				<div id="foto">
-					<div class="span2" data-rel="tooltip" data-placement="right" data-original-title="Ukuran File Gambar Tidak Boleh Lebih 1MB">
+					<div class="span2" data-rel="tooltip" data-placement="right" data-original-title="Ukuran File Gambar Tidak Boleh Lebih 300kb">
 						<input type="file" name="fupload" required> 
 					</div>
 				</div>
@@ -103,7 +103,7 @@ if($_GET[act]=="tambah"){
 			  		setTimeout('window.location.href=\"media.php?page=$page\"', 2000)
 			      </script>";
 		}else{
-			echo "error".mysql_error();
+			echo mysql_error();
 			echo "<script>
 			      notiferror('Failed','Data Gagal Tersimpan..!!');
 			  		setTimeout(function() { history.go(-1); }, 2000);
