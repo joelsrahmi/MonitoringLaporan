@@ -107,11 +107,7 @@ if($_GET[act]=="tambah"){
 			  		setTimeout('window.location.href=\"media.php?page=$page\"', 2000)
 			      </script>";
 		}else{
-<<<<<<< HEAD
-			echo mysql_error();
-=======
 			echo "error".mysql_error();
->>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 			echo "<script>
 			      notiferror('Failed','Data Gagal Tersimpan..!!');
 			  		setTimeout(function() { history.go(-1); }, 2000);

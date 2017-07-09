@@ -10,7 +10,7 @@ $_CONFIG['owneremail'] = "lppm@uinjkt.ac.id";
 $_CONFIG['slogo'] = "../images/logokecil.png";
 $_CONFIG['llogo'] = "images/logosedang.png";
 $_CONFIG['sysheader'] = "images/header.jpg";
-$_CONFIG['syscopyright'] = "Joelz";
+$_CONFIG['syscopyright'] = "Joels";
 
 $_CONFIG['syskop'] = "../images/favicon.png";
 $_CONFIG['syscolor'] = "#00BE67";
