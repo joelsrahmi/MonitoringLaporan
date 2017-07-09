@@ -12,6 +12,15 @@ function getData($field,$tabel,$term){
 	return $dt;
 }
 
+<<<<<<< HEAD
+=======
+function getPAktif(){
+	$dt = mysql_fetch_array(mysql_query("SELECT * FROM periode WHERE pAktif='1'"));
+	$prId = $dt['pId'];
+	
+	$_SESSION['sesPr'] = $prId;
+}
+>>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 
 function getValue($field,$table,$term){
 	$z = mysql_fetch_array(mysql_query("SELECT $field FROM $table WHERE $term"));

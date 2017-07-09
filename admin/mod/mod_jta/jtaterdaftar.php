@@ -13,7 +13,11 @@ $e = mysql_fetch_array(mysql_query("SELECT a.*,b.* FROM penugasan a JOIN mahasis
 
 ?>
 <div class="widget-box">
+<<<<<<< HEAD
 <div class="widget-header widget-header-flat"><h2 class="smaller">Penugasan Penyunting</h2></div>
+=======
+<div class="widget-header widget-header-flat"><h2 class="smaller">Penugasan Pembimbing</h2></div>
+>>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 <div class="widget-body">
 <div class="widget-main">
 

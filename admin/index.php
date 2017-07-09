@@ -56,7 +56,11 @@ include '../config/konfigurasi.php';
 													?>
 													<div class="alert alert-error">
 													<button data-dismiss="alert" class="close" type="button"><i class="icon-remove"></i></button>
+<<<<<<< HEAD
 													<strong>Maaf, Login anda gagal</strong><br>
+=======
+													<strong>Maaf,, Login anda gagal</strong><br>
+>>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 													Username dan password yang anda input tidak sesuai
 													</div>
 													<?php

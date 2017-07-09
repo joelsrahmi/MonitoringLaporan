@@ -20,7 +20,14 @@ if (!ctype_alnum($uname) OR !ctype_alnum($upass)){
 
 	$uid=$r['id_admin'];
 	$uname=$r['username'];
+<<<<<<< HEAD
 	$unama=$r['nama_lengkap'];	
+=======
+	$unama=$r['nama_lengkap'];
+
+	$paktif = getData("pTahun,pDekan,pDNip,pQSP,pQUH,pQUM","periode","pAktif='1'");
+	
+>>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 	
 	// apabila username dan password ditemukan
 	if ($ketemu > 0){
@@ -31,6 +38,10 @@ if (!ctype_alnum($uname) OR !ctype_alnum($upass)){
 		$_SESSION['sesUser'] = $uname;
 		$_SESSION['sesNama'] = $unama;
 		$_SESSION['sesLevel'] = 1;
+<<<<<<< HEAD
+=======
+		getPAktif();
+>>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 
 		// session timeout
     	timer();

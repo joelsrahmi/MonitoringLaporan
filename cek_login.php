@@ -55,7 +55,12 @@ if (!ctype_alnum($username) OR !ctype_alnum($pass)){
 	  $_SESSION['uNama'] = $unama;
 	  $_SESSION['uLevel'] = $ulevel;
 	  $_SESSION['uFoto'] = $ufoto;
+<<<<<<< HEAD
 	 
+=======
+	  getPAktif();
+	
+>>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 	  timer();
 	  header('location:index.php?rl=1');
 	}else{

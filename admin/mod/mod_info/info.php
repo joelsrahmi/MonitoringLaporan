@@ -118,9 +118,15 @@ $e = mysql_fetch_array(mysql_query("SELECT * FROM info WHERE iId='$_GET[id]'"));
 ?>
 	<?php
 		if ($_GET[mode]=="hapus"){
+<<<<<<< HEAD
 			$xx = getData("iJudul,iIsi","info","iId='$_GET[id]'");
 			if (!$xx[0]==""){
 				mysql_query("DELETE FROM info WHERE iId='$_GET[id]'");
+=======
+			$xx = getData("spId,spNama","ms_user","spId='$_GET[id]'");
+			if (!$xx[0]==""){
+				mysql_query("DELETE FROM ms_spesialis WHERE spId='$_GET[id]'");
+>>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 				echo "<script>
 					 		notifsukses('Success,'Data Telah Dihapus..!!');
 					  		setTimeout('window.location.href=\"media.php?page=$page\"', 2000)
