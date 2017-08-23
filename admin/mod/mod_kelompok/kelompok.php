@@ -19,11 +19,7 @@ if($_GET[act]=="tambah"){
 			<label class="control-label" for="foto">Foto</label>
 			<div class="controls">
 				<div id="foto">
-<<<<<<< HEAD
 					<div class="span2" data-rel="tooltip" data-placement="right" data-original-title="Ukuran File Gambar Tidak Boleh Lebih 300kb">
-=======
-					<div class="span2" data-rel="tooltip" data-placement="right" data-original-title="Ukuran File Gambar Tidak Boleh Lebih 1MB">
->>>>>>> c756019e4cbc14c502fb8fef617bac42b1d1fa99
 						<input type="file" name="fupload" required> 
 					</div>
 				</div>
